@@ -4,15 +4,18 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
-    "dist"
+    "dist/**/*"
   ],
   "private": true,
   "scripts": {
-    "typescript:deploy": "tsc -b",
+    "build": "tsc -b",
     "typescript:clean": "rm -f -rf ./dist && rm -f tsconfig.tsbuildinfo"
   },
   "dependencies": {
     "graphql-compose-mongoose": "^9.6.0",
     "mongoose": "5.13.4"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4"
   }
 }
