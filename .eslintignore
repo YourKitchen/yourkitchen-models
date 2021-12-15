@@ -1,9 +1,10 @@
 # don't ever lint node_modules
-node_modules/
-dist/
-build/
-Pods/
-derived/
+
+**/node_modules/
+**/dist/
+**/build/
+**/Pods/
+**/derived/
 
 craco.config.js
 metro.config.js
