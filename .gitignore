@@ -450,3 +450,11 @@ YourKitchenReactNative.app.dSYM.zip
 google-keystore.keystore
 private-key.json
 AuthKey.p8
+
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
