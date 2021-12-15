@@ -9,7 +9,8 @@
   "private": true,
   "scripts": {
     "build": "tsc -b",
-    "typescript:clean": "rm -f -rf ./dist && rm -f tsconfig.tsbuildinfo"
+    "clean": "rm -f -rf ./dist && rm -f tsconfig.tsbuildinfo",
+    "preinstall": "npm run build"
   },
   "dependencies": {
     "graphql-compose-mongoose": "^9.6.0",
