@@ -38,10 +38,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/object-path@npm:0.11.1":
+  version: 0.11.1
+  resolution: "@types/object-path@npm:0.11.1"
+  checksum: 007e819d1d9dc830491b60023b1502ef1e421416d9953d6fefcda7d06eb91548eef8ee30073a9cfb6a834ac977042f6e1a761cde2d6a7973b06ddca753be91e3
+  languageName: node
+  linkType: hard
+
 "@yourkitchen/models@workspace:.":
   version: 0.0.0-use.local
   resolution: "@yourkitchen/models@workspace:."
   dependencies:
+    graphql-compose: ^9.0.4
     graphql-compose-mongoose: ^9.6.0
     mongoose: 5.13.4
     typescript: ^4.5.4
@@ -131,6 +139,28 @@ __metadata:
   peerDependencies:
     graphql-compose: ^7.15.0 || ^8.0.0 || ^9.0.0
   checksum: e59f48a223620097a094c67535402aae4970e2c9d0e48d844c3cb3bbadaad8ad350ece2b790e4037fbaf6536880623214ecae9894d5201e8d86c4146b9e2c8ba
+  languageName: node
+  linkType: hard
+
+"graphql-compose@npm:^9.0.4":
+  version: 9.0.4
+  resolution: "graphql-compose@npm:9.0.4"
+  dependencies:
+    "@types/object-path": 0.11.1
+    graphql-type-json: 0.3.2
+    object-path: 0.11.8
+  peerDependencies:
+    graphql: ^14.2.0 || ^15.0.0 || ^16.0.0
+  checksum: add6c0f46a7cd123cf9d932708950371a3a937e141922545c45d8b8bae9399f5de3cd3607a67c3eb3a5bfc0f0e876d22bd4c08a0a5feb955423f35e0621dfbcb
+  languageName: node
+  linkType: hard
+
+"graphql-type-json@npm:0.3.2":
+  version: 0.3.2
+  resolution: "graphql-type-json@npm:0.3.2"
+  peerDependencies:
+    graphql: ">=0.8.0"
+  checksum: 41620699637a5294937bd61d6e2696edea5a1279ef3d8f4b33716a910635595435381ccd1b74c6fae62c2bc81064c62ae27d3559c8380c0f99bdfdc8ecb249b0
   languageName: node
   linkType: hard
 
@@ -254,6 +284,13 @@ __metadata:
   version: 2.1.2
   resolution: "ms@npm:2.1.2"
   checksum: 673cdb2c3133eb050c745908d8ce632ed2c02d85640e2edb3ace856a2266a813b30c613569bf3354fdf4ea7d1a1494add3bfa95e2713baa27d0c2c71fc44f58f
+  languageName: node
+  linkType: hard
+
+"object-path@npm:0.11.8":
+  version: 0.11.8
+  resolution: "object-path@npm:0.11.8"
+  checksum: 684ccf0fb6b82f067dc81e2763481606692b8485bec03eb2a64e086a44dbea122b2b9ef44423a08e09041348fe4b4b67bd59985598f1652f67df95f0618f5968
   languageName: node
   linkType: hard
 
