@@ -7,7 +7,7 @@ export interface Kitchen {
   _id: string
   refrigerator: Ingredient[]
   shoppinglist: Ingredient[]
-  shared: User[]
+  shared: (User | string)[]
   owner: User
   ownerId: string
 }
@@ -29,7 +29,7 @@ export const KitchenTC = composeMongoose<IKitchen>(KitchenModel)
 KitchenTC.addRelation('shared', {
   type: '[users!]!',
   resolve: async (source) => {
-    return await UserModel.find({ ID: { $in: source.shared } })
+    return await UserModel.find({ ID: { $in: source.shared as string[] } })
   },
   projection: { shared: 1 },
 })
