@@ -49,6 +49,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@yourkitchen/models@workspace:."
   dependencies:
+    graphql: ^15.3.0
     graphql-compose: ^9.0.4
     graphql-compose-mongoose: ^9.6.0
     mongoose: 5.13.4
@@ -161,6 +162,13 @@ __metadata:
   peerDependencies:
     graphql: ">=0.8.0"
   checksum: 41620699637a5294937bd61d6e2696edea5a1279ef3d8f4b33716a910635595435381ccd1b74c6fae62c2bc81064c62ae27d3559c8380c0f99bdfdc8ecb249b0
+  languageName: node
+  linkType: hard
+
+"graphql@npm:^15.3.0":
+  version: 15.8.0
+  resolution: "graphql@npm:15.8.0"
+  checksum: 423325271db8858428641b9aca01699283d1fe5b40ef6d4ac622569ecca927019fce8196208b91dd1d8eb8114f00263fe661d241d0eb40c10e5bfd650f86ec5e
   languageName: node
   linkType: hard
 
