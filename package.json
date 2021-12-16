@@ -8,9 +8,9 @@
   ],
   "private": true,
   "scripts": {
-    "typescript:build": "tsc -b",
+    "typesscript:deploy": "tsc -b",
     "typescript:clean": "rm -f -rf ./dist && rm -f tsconfig.tsbuildinfo",
-    "prepack": "npm run typescript:build",
+    "prepack": "npm run typesscript:deploy",
     "lint": "eslint --fix . && prettier --write . --ignore-unknown",
     "lint:staged": "lint-staged"
   },
