@@ -5,6 +5,7 @@
 **/build/
 **/Pods/
 **/derived/
+.yarn/
 
 craco.config.js
 metro.config.js
