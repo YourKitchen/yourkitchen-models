@@ -20,8 +20,8 @@
   },
   "dependencies": {
     "graphql": "^16.6.0",
-    "graphql-compose": "^9.0.4",
-    "graphql-compose-mongoose": "^9.6.0",
+    "graphql-compose": "^9.0.10",
+    "graphql-compose-mongoose": "^9.8.0",
     "mongoose": "7.1.0"
   },
   "devDependencies": {
